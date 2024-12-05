@@ -1,0 +1,16 @@
+.appointmentsContainer {
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+}
+
+.noAppointments {
+    color: red;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}

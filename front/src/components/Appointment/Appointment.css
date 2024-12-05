@@ -1,0 +1,57 @@
+
+
+.appointment-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-content {
+    display: flex;
+    align-items: center;
+}
+
+.appointment-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.appointment-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.appointment-card .status {
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.appointment-card.active {
+    border-color: green;
+    border-width: 5px;
+}
+
+.appointment-card.canceled {
+    border-color: red;
+    border-width: 3px;
+}
+
+.cancel-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cancel-button:hover {
+    background-color: darkred;
+}

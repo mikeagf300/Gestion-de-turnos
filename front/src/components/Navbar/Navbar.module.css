@@ -1,0 +1,60 @@
+.navbarContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra el título horizontalmente */
+    margin-bottom: 10px; /* Añade un poco de espacio debajo del título */
+}
+
+.title {
+    text-align: center; /* Centra el texto dentro del h1 */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 10px 0; /* Añade un poco de espacio alrededor del h1 */
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Distribuye los enlaces uniformemente */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+
+
+.navbarImage {
+    width: 100px; /* Ajusta el ancho imagen logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.profileImage {
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
+    height: 50px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor sin distorsionarse */
+}
+
+.uploadButton {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    width: 350px; /* Ajusta el tamaño según tus necesidades */
+    height: 50px; 
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 1em; /* Tamaño de la fuente */
+}
+
+.uploadButton:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
